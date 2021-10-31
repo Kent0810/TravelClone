@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+  .navbar {
+    height: 50px;
+  }
+
+  .fa-bars {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    display: block;
+    z-index: 0;
+    color: #adadad;
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    height: 100vh;
+    display: block;
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+    transition: all 1s ease;
+  }
+  .fa-times {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    display: block;
+    opacity: 0.3;
+    font-size: 2rem;
+
+    top: 10px;
+  }
+  .slider {
+    z-index: 0;
+  }
+}

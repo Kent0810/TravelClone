@@ -240,3 +240,12 @@ function updateCountTime(){
 setInterval(updateCountTime,1000);
 
 
+//Media Query
+
+let closeBtn = document.querySelector(".x");
+let navbar = document.querySelector(".navbar-nav");
+    
+
+closeBtn.addEventListener('click',()=>{
+    navbar.style.transform  = "translateY(-200vh)";
+});
