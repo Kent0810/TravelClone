@@ -1,3 +1,7 @@
+
+
+
+
 const Slider = document.querySelector('.slides')
 const Images = document.querySelectorAll('.slides .slide')
 
